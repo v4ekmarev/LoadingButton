@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/loading_button_button"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:minWidth="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/loading_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#0fc"
+        android:translationZ="100dp"
+        tools:text="Текст для теста" />
+
+    <ProgressBar
+        android:id="@+id/loading_button_progress"
+        style="@style/LoadingButtonProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:translationZ="100dp"
+        tools:alpha="1" />
+
+</FrameLayout>

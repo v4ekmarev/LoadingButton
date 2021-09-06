@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    
+    <style name="LoadingButtonProgressBarTheme">
+        <item name="colorControlActivated">#fff</item>
+    </style>
+
+    <style name="LoadingButtonProgressBar">
+        <item name="android:theme">@style/LoadingButtonProgressBarTheme</item>
+    </style>
+
+</resources>
